@@ -1,5 +1,5 @@
 default_target: target_a target_b target_c
-	echo dfault
+	echo default
 
 target_a:
 	echo a
