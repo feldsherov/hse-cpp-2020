@@ -16,5 +16,7 @@ struct fib_t<1> {
 };
 
 int32_t main() {
-  std::cout << fib_t<5>::value << std::endl;
+  std::cout << fib_t<32>::value << std::endl;
+  int x;
+  std::cin >> x;
 }
