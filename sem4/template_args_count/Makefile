@@ -1,3 +1,5 @@
+# Works from PowerShell in MSVS2019
+
 dstDir = Output
 
 dstClOpt = -Fe:${dstDir}/output.exe -Fd:${dstDir}/output.pdb
