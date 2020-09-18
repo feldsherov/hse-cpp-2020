@@ -12,5 +12,4 @@ int get_args_cnt(T t) {
 
 int main() {
 	std::cout << get_args_cnt(1, "Hello World!", 3.1415, [&]() { return 42; }) << '\n';
-	int32_t n;
 }
