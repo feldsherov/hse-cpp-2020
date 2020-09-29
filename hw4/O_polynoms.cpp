@@ -70,8 +70,6 @@ public:
 
     friend Polynomial<T> operator&(const Polynomial<T> &p1, const Polynomial<T> &p2);
 
-    friend std::pair<Polynomial, Polynomial> Division(Polynomial<T> p1, const Polynomial<T> &p2);
-
     friend Polynomial<T> operator/(const Polynomial<T> &p1, const Polynomial<T> &p2);
 
     friend Polynomial<T> operator%(const Polynomial<T> &p1, const Polynomial<T> &p2);
