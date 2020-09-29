@@ -8,3 +8,4 @@
 - int vs int32\_t
 - signed types for bitmasks
 - include bits
+- not consistently codestyle
