@@ -16,7 +16,7 @@ class NonCopiable {
 };
 
 int main() {
-  char* buf[100];
-  new(buf) NonCopiable;
+  char buf[100];
+  new(buf) NonCopiable[2];
   return 0;
 }
